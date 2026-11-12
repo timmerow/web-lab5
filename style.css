@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font: 16px/1.5 Arial, sans-serif;
+    color: #243247;
+    background: #eef2f6;
+}
+
+.container {
+    width: 92%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px 0;
+    background: #214b75;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    margin: 24px 0;
+    padding: 24px;
+    background: white;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0 0 16px;
+    font-size: 26px;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    font: inherit;
+    border: 1px solid #c7d3df;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button,
+.button {
+    display: inline-block;
+    justify-self: start;
+    padding: 8px 14px;
+    font: inherit;
+    text-decoration: none;
+    color: white;
+    background: #214b75;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    overflow-wrap: anywhere;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #c7d3df;
+    text-align: left;
+}
+
+th {
+    background: #eef2f6;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.images img {
+    width: 120px;
+    height: 87px;
+    object-fit: contain;
+    border-radius: 4px;
+}
